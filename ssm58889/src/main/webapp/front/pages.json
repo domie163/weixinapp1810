@@ -1,0 +1,281 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/chat/chat",
+		"style": {
+			"navigationBarTitleText": "在线客服"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/piaowuxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/piaowuxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/piaowuxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/menpiaogoumai/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/menpiaogoumai/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/menpiaogoumai/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/luxianjieshao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/luxianjieshao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/luxianjieshao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/discusspiaowuxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discusspiaowuxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discusspiaowuxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/discussluxianjieshao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discussluxianjieshao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discussluxianjieshao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	, {
+		"path": "pages/pay-confirm/pay-confirm",
+		"style": {
+			"navigationBarTitleText": "确认支付"
+		}
+	}
+    , {
+        "path": "pages/map/index",
+        "style": {
+            "navigationBarBackgroundColor": "#82A39D",
+            "navigationBarTextStyle": "white",
+            "navigationBarTitleText": "地图"
+        }
+    }
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#82A39D",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "游乐园智慧向导小程序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#82A39D",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/piaowuxinxi/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "票务信息"
+			}
+			,{
+				"pagePath": "pages/luxianjieshao/list",
+				"iconPath": "/static/tabs/icon2.png",
+				"selectedIconPath": "/static/tabs/icon2_act.png",
+				"text": "路线介绍"
+			}
+
+
+
+
+
+            , {
+                "pagePath": "pages/map/index",
+                "iconPath": "/static/tabs/map.png",
+                "selectedIconPath": "/static/tabs/map_act.png",
+                "text": "地图"
+            }
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

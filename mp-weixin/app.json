@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/piaowuxinxi/list",
+    "pages/piaowuxinxi/add-or-update",
+    "pages/piaowuxinxi/detail",
+    "pages/menpiaogoumai/list",
+    "pages/menpiaogoumai/add-or-update",
+    "pages/menpiaogoumai/detail",
+    "pages/luxianjieshao/list",
+    "pages/luxianjieshao/add-or-update",
+    "pages/luxianjieshao/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discusspiaowuxinxi/list",
+    "pages/discusspiaowuxinxi/add-or-update",
+    "pages/discusspiaowuxinxi/detail",
+    "pages/discussluxianjieshao/list",
+    "pages/discussluxianjieshao/add-or-update",
+    "pages/discussluxianjieshao/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/map/index",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "游乐园智慧向导小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#82A39D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/piaowuxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "票务信息"
+      },
+      {
+        "pagePath": "pages/luxianjieshao/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "路线介绍"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "iconPath": "/static/tabs/map.png",
+        "selectedIconPath": "/static/tabs/map_act.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
